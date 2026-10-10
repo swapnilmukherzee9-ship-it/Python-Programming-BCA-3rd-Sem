@@ -1,0 +1,9 @@
+import io
+file = io.StringIO()
+file.write("Hello, Welcome to Python Programming!\n")
+file.write("This is a file handling example.")
+print("Data written successfully.")
+content = file.getvalue()
+print("\nFile Contents:")
+print(content)
+file.close()
